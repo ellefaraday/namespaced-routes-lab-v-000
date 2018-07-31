@@ -3,7 +3,7 @@ class Admin::PreferencesController < ApplicationController
   end
 
   private
-    def get_preference
+    def get_preferences
       @preference = Preference.first
     end
 end
